@@ -1,202 +1,132 @@
-* {
+ * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /*set body backgrtound color to slightly gray*/
 }
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #2a607c; /* set header background color to blue*/
+    color: #ffffff; /*set header font color to white*/
 }
 
-.header h1 {
-    display: inline-block;
+header h1 {
+    display: inline-block; /*set the header h1 to a line*/
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+header h1 .seo {
+    color: #d9dcd6; /*set seo class color to slightly gray */
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right;   /*set the  navigation list position to the right of the header section*/
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
+header nav ul {
+    list-style-type: none; /*set the navegation list style to none*/
 }
 
-.header nav ul li {
-    display: inline-block;
+header nav ul li {
+    display: inline-block; /*set the navigacion list to a line*/
     margin-left: 25px;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+    color: #ffffff; /*set ancor collor to white*/
+    text-decoration: none; /*set all ancor text decoration to none*/
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /*set all paragraph font size to 16px*/
 }
 
-.hero {
+#hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /*set the hero id image background size to cover*/
+    background-position: center; /*set the hero id image background position to center*/
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+main {
     width: 75%;
-    display: inline-block;
+    display: inline-block; /*set main display to inline block*/
     margin-left: 20px;
 }
 
+#float-left {
+    float: left; /* set the class content image position to the left*/
+    margin-right: 25px;
+}
 
-.search-engine-optimization {
+#float-right {
+    float: right; /*set the class content image position to the right*/
+    margin-left: 25px;
+}
+
+
+.content {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #0072bb; /*set content background color to blue*/
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.content img {
+    max-height: 200px; /*set content images size to 200px*/
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+.content h2 {
+    margin-bottom: 20px; /* set content h2 headers size to 20px*/
+    font-size: 36px; /*set content font size to 36px*/
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.benefits {
-    margin-right: 20px;
+#benefits {
+    margin-right: 20px; 
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: #2589bd; /*set class benefits backgtound color to slightly blue*/
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+.side-bar {
+    margin-bottom: 32px; /* set side bar class margin bottom to 32px*/
+    color: #ffffff; /*set side bar class font color to white*/
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+.side-bar h3 {
+    margin-bottom: 10px; /* set h3 margin bottom to 10px*/
+    text-align: center; /* set h3 text aling to center*/
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+.side-bar img {
+    display: block; /*set side bar class images display to block*/
+    margin: 10px auto; /*set side bar class images margin top and bottom to 10px and left and right to auto*/
+    max-width: 150px; /* set side bar class images max width to 150px*/
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-
-.footer {
+footer {
     padding: 30px;
-    clear: both;
+    clear: both; /*set the footer down to clear left and right floats*/
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
-    font-size: 20px;
+footer h2 {
+    font-size: 20px; /*set the footer h2 font size to 20px*/
 }
